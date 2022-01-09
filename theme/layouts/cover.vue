@@ -1,5 +1,6 @@
 <template>
   <default class="cover" v-bind:class="color">
+    <h1 v-if="tip" class="tip">{{tip}}</h1>
     <slot />
   </default>
 </template>
@@ -14,6 +15,9 @@ const props = defineProps({
     type: String,
   },
   line: {
+    type: String
+  },
+  tip: {
     type: String
   }
 });
