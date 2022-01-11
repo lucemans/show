@@ -32,3 +32,4 @@ jobs:
           method: 'PUT'
           bearerToken: ${{ secrets.SIGNAL_TOKEN }}
           files: '{ "data": "${{ github.workspace }}/result.zip" }'
+          timeout: 50000

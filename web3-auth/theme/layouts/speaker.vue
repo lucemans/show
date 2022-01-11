@@ -3,7 +3,7 @@
         <div class="head" v-bind:class="color">
             <h1 v-if="tip" class="tip">{{ tip }}</h1>
             <div class="speaker">
-                <img v-bind:src="avatar" />
+                <img src="/assets/avatar.png" />
                 <div>
                     <div class="hooks">
                         <div />
