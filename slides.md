@@ -1625,6 +1625,87 @@ website: luc.computer
 handle: lucemansnl
 ---
 
+# FUTURE
+
+<!--
+What about the future of web3
+
+Keep in mind, this is my personal opinion, about (not the future, a future)
+-->
+
+---
+layout: head
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
+<div style="display:flex;flex-direction:column">
+<div><span v-click>Not</span> <span v-click>the</span> <span v-click>future,</span> <span v-click>a</span> <span v-click>future</span></div>
+
+
+<span v-click class="pink">~Tom Scott</span>
+</div>
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
+# FUTURE
+
+<!--
+So, do I think web3 will be taking over the world and rendering all servers and datacenters obsolete by tomorrow?
+
+No, not really
+
+But do I think that we are arriving in a new era of the web id like to dub (web 2.5, a hybrid of some sorts)
+
+-->
+
+---
+layout: cover
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# WEB 2.5
+
+<!--
+(like to dub) web 2.5, a hybrid of some sorts.
+
+A world where, eventhough the backend may still exist, some technologies will have migrated, and some will take standalone use, of all the awesome features web 3 has to offer
+
+Regardless, lets all (take a quick moment to breathe)
+-->
+
+---
+layout: cover
+color: blue
+website: luc.computer
+handle: lucemansnl
+---
+
+# BREATHE
+
+<img src="/assets/breathe.gif" />
+
+<!--
+(lets all) take a quick moment to breathe.
+
+(I have shown this talk to a few people so far)
+-->
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
 <div style="display:flex;gap:2rem;" v-click>
 <img src="/assets/bitcoin.png" style="width: 80px;" />
 <img src="/assets/ethereum.png" style="width: 80px;left:calc(50% - 40px);" />
@@ -1632,6 +1713,8 @@ handle: lucemansnl
 </div>
 
 <!--
+I have shown this talk to a few people so far
+
 So from the feedback ive had so far a lot of people seemed to have been interested in a "blockchain" explaination.
 -->
 
@@ -1744,12 +1827,9 @@ handle: lucemansnl
 Speak now or forever hold your peace.
 
 (
-just kidding feel free to talk to me anytime, im attention deprived.
+just kidding feel free to talk to me anytime, im attention deprived, and i live alone
 )
-
-so euuhm, any questions?
 -->
-
 
 ---
 layout: head
