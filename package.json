@@ -1,19 +1,16 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
-  },
-  "dependencies": {
-    "@slidev/cli": "^0.27.20",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*",
-    "playwright-chromium": "^1.17.1",
-    "slidev-theme-unicorn": "^1.0.21"
-  },
-  "name": "web3",
-  "devDependencies": {
-    "sass": "^1.47.0"
-  }
+    "name": "web3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:lucemans/web3-auth-slides.git",
+    "author": "Lucemans <luc@lucemans.nl>",
+    "license": "GPL3",
+    "private": true,
+    "scripts": {
+      "build": "yarn workspaces run build",
+      "copy": "rm -rf ./dist && mkdir ./dist && yarn workspaces run copy"
+    },
+    "workspaces": [
+        "web3-auth"
+    ]
 }

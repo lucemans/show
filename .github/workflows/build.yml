@@ -16,7 +16,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn
       - name: Build
-        run: yarn build
+        run: yarn build && yarn copy
       - uses: vimtor/action-zip@v1
         with:
           files: dist/
