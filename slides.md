@@ -10,8 +10,8 @@ website: luc.computer
 handle: lucemansnl
 ---
 
-# WEB3
-#### EXPLAINED
+# PASSWORDLESS
+#### WITH WEB3
 
 <!--
 Welcome to my presentation I guess
@@ -31,7 +31,26 @@ handle: lucemansnl
 # SPEAKER PAGE
 
 <!--
-    So passwordless login. Lets be real, there is only one reason I want this.
+Welcome to my speaker page, here I get egoistic and talk about my self for a bit.
+
+Welcome to (from zero to hero, passwordless authentication)
+-->
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
+FROM <span class="pink">ZERO</span> TO <span class="blue">HERO</span>
+# PASSWORDLESS
+<div v-click>(WITH WEB3)</div>
+
+<!--
+from zero to hero, passwordless authentication,
+
+with web 3
 -->
 
 ---
@@ -50,6 +69,7 @@ handle: lucemansnl
     <li>Web 1 vs Web 2 vs Web 3</li>
     <li>Migrating to Web 3</li>
     <li>Identity Management</li>
+    <li>Demo</li>
 </ul>
 
 ---
@@ -87,6 +107,10 @@ handle: lucemansnl
 <p>for making this <span class="pink">this happen</span></p>
 </div>
 
+<!--
+Special thanks to Alba, for making the slidev unicorn theme, which was a great inspiration to make my own theme to suit my overall idea, and to passionatepeople for making this happen.
+-->
+
 ---
 layout: cover
 color: pink
@@ -97,7 +121,7 @@ handle: lucemansnl
 # PASSWORDLESS
 
 <!--
-    So passwordless login. Lets be real, there is only one reason I want this.
+So passwordless login. Lets be real, there is only one reason I want this.
 -->
 
 ---
@@ -154,6 +178,14 @@ handle: lucemansnl
 
 <img src="/assets/or_in_bitwarden.png" />
 
+<!--
+or, in bitwarden
+
+Which is,
+
+a password manager
+-->
+
 ---
 layout: cover
 color: blue
@@ -164,6 +196,12 @@ handle: lucemansnl
 <h1>PASSWORD</h1>
 <h4>MANAGERS</h4>
 
+<!--
+Password managers are tools that store / help you maintain order in the chaos of your passwords
+
+Popular examples include (bitwarden, lastpass, and keepass)
+-->
+
 ---
 layout: head
 color: pink
@@ -172,6 +210,12 @@ handle: lucemansnl
 ---
 
 <img src="/assets/password_managers.png" />
+
+<!--
+bitwarden, lastpass, and keepass.
+
+I personally use (bitwarden)
+-->
 
 ---
 layout: head
@@ -190,6 +234,12 @@ handle: lucemansnl
     <v-click><li>SELF-HOSTABLE</li></v-click>
 </ul>
 
+<!--
+bitwarden. Cause its simple, feature complete, cross platform, which includes mobile, auto-recognizes input text-boxes. And self-hostable, which, is a big bonus for me.
+
+But enough about bitwarden, why, you ask
+-->
+
 ---
 layout: cover
 color: blue
@@ -206,6 +256,8 @@ handle: lucemansnl
 Why you ask?
 
 Because passwords like these are too predictable
+
+We need your password to be secure, or atleast, secure enough where it will take a potential attacker a too long time to guess it
 -->
 
 ---
@@ -267,11 +319,11 @@ clicks: 5
 </ul>
 
 <!--
-That second factor can be something you know,
+That first factor can be something you know,
 
 Like a password orso
 
-And something you have,
+And the second factor, something you have,
 
 Like a phone for OTP tokens, SMS Messages, or in-app push notifications,
 
@@ -536,7 +588,7 @@ layout: head
 color: green
 website: luc.computer
 handle: lucemansnl
-clicks: 3
+clicks: 4
 ---
 
 # WEB 2.0
@@ -548,6 +600,8 @@ clicks: 3
     <li v-click="2">API-DRIVEN WORLD
         <img src="/assets/api_driven_world.png" class="abs" style="width: 300px;" v-click-hide="3">
         <img src="/assets/karen_internet.png" class="abs" style="width: 64px;left: 50%;transform:translateX(-50%);" v-click="3">
+        <img src="/assets/tower.jpg" class="abs" style="width:300px;left:300px;top:-10px;transform:rotate(-10deg)" v-click="4">
+        <img src="/assets/karen.jpg" class="abs" style="width:300px;left:-300px;top:-30px;transform:rotate(3deg);z-index:-1;" v-click="4">
     </li>
 </ul>
 
@@ -1083,4 +1137,662 @@ handle: lucemansnl
 For signing in it is pretty much the same thing as the originally envisioned one right?
 
 Awesome!
+-->
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
+# CODE TIME
+
+<!--
+Now lets build it!
+-->
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# WARNING
+
+<img src="/assets/warning-lights.gif" />
+
+<!--
+Warning, there will be code ahead
+
+DO NOT BE SCARED!
+
+I will try to keep it as simple as possible
+-->
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# SETUP
+
+<img src="/assets/template.png" style="width:400px;"/>
+
+<!--
+I will be using the **lvksh** react template.
+
+Don't worry about it, its like **create-react-app** but simpler. Its a basic react project.
+-->
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## CUSTOM HOOK
+
+<pre class="slidev-code language-typescript"><code><span class="line">                                                        </span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span></code></pre>
+
+<!--
+We are gonna start off with a custom hook
+
+(Import some things from these two packages)
+-->
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## CUSTOM HOOK
+
+<pre class="slidev-code language-typescript"><code><span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> Web3Provider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@ethersproject/providers"</span><span class="token punctuation">;</span></span>
+<span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> useWeb3React <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@web3-react/core"</span><span class="token punctuation">;</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span></code></pre>
+
+<!--
+Import some things from these two packages
+
+(Create our useAuth function)
+-->
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## CUSTOM HOOK
+
+<pre class="slidev-code language-typescript"><code><span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> Web3Provider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@ethersproject/providers"</span><span class="token punctuation">;</span></span>
+<span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> useWeb3React <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@web3-react/core"</span><span class="token punctuation">;</span></span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">useAuth</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span class="token punctuation">}</span><span class="token punctuation">;</span></span></code></pre>
+
+<!--
+Create our useAuth function
+
+(Call the **useWeb3React** hook)
+-->
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## CUSTOM HOOK
+
+<pre class="slidev-code language-typescript"><code><span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> Web3Provider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@ethersproject/providers"</span><span class="token punctuation">;</span></span>
+<span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> useWeb3React <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@web3-react/core"</span><span class="token punctuation">;</span></span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">useAuth</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token keyword">const</span> web3 <span class="token operator">=</span> <span class="token generic-function"><span class="token function">useWeb3React</span><span class="token generic class-name"><span class="token operator">&lt;</span>Web3Provider<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span class="token punctuation">}</span><span class="token punctuation">;</span></span></code></pre>
+
+<!--
+Call the **useWeb3React** hook
+
+(And return the data that it returns)
+-->
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## CUSTOM HOOK
+
+<pre class="slidev-code language-typescript"><code><span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> Web3Provider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@ethersproject/providers"</span><span class="token punctuation">;</span></span>
+<span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> useWeb3React <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@web3-react/core"</span><span class="token punctuation">;</span></span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">useAuth</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token keyword">const</span> web3 <span class="token operator">=</span> <span class="token generic-function"><span class="token function">useWeb3React</span><span class="token generic class-name"><span class="token operator">&lt;</span>Web3Provider<span class="token operator">&gt;</span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
+<span class="line"></span>
+<span class="line">    <span class="token keyword">return</span> <span class="token punctuation">{</span></span>
+<span class="line">        <span class="token operator">...</span>web3<span class="token punctuation">,</span></span>
+<span class="line">    <span class="token punctuation">}</span><span class="token punctuation">;</span></span>
+<span class="line"><span class="token punctuation">}</span><span class="token punctuation">;</span></span></code></pre>
+
+<!--
+And return the data that it returns.
+
+Yes, I do realize I am literally wrapping an already existant hook. But trust me, you will most likely want to add logic to it later to suit your needs, so its not a bad idea to make our own wrapper hook for it.
+-->
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## USE HOOK
+
+```tsx
+export const App = () => {
+    const { active } = useAuth();
+
+    if (active) {
+        return <HomePage />
+    } else {
+        return <Login />
+    }
+};
+```
+
+<!--
+Setup our basic app component
+
+Active, from useAuth, and then if active, show the homepage, otherwise show the login page.
+
+Seems pretty simple to me...
+(well, pretty simple)-->
+
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## USE HOOK
+
+```tsx
+export const App = () => {
+    const { active } = useAuth();
+
+    return active ? <HomePage /> : <Login />;
+};
+```
+
+<!--
+Well, pretty simple
+
+Anyhow, let me make it even better for you
+-->
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## LOGIN W HOOK
+
+```tsx
+export const Login = () => {
+
+    return (
+        <div>
+            <LoginButton />
+        </div>
+    );
+};
+```
+
+<!--
+Now we have our login component
+-->
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## LOGIN W HOOK
+
+```tsx
+export const Login = () => {
+    const { activate } = useAuth();
+
+    return (
+        <div>
+            <LoginButton />
+        </div>
+    );
+};
+```
+
+<!--
+Implement the hook
+
+
+Note we have changed it to activate
+-->
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## LOGIN W HOOK
+
+```tsx
+export const Login = () => {
+    const { activate } = useAuth();
+
+    function loginPwease() {
+
+    }
+
+    return (
+        <div>
+            <LoginButton />
+        </div>
+    );
+};
+```
+
+<!--
+Create a function that we will call to log in
+-->
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## LOGIN W HOOK
+
+```tsx
+export const Login = () => {
+    const { activate } = useAuth();
+
+    function loginPwease() {
+
+    }
+
+    return (
+        <div>
+            <LoginButton onClick={loginPwease} />
+        </div>
+    );
+};
+```
+
+<!--
+Call the function in the onClick listener
+-->
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## LOGIN W HOOK
+
+```tsx
+                                                                   
+
+export const Login = () => {
+    const { activate } = useAuth();
+
+    function loginPwease() {
+        activate(                         );
+    }
+
+    return (
+        <div>
+            <LoginButton onClick={loginPwease} />
+        </div>
+    );
+};
+```
+
+<!--
+Inside of it call activate
+-->
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## LOGIN W HOOK
+
+```tsx
+import { InjectedConnector } from "@web3-react/injected-connector";
+
+export const Login = () => {
+    const { activate } = useAuth();
+
+    function loginPwease() {
+        activate(new InjectedConnector({}));
+    }
+
+    return (
+        <div>
+            <LoginButton onClick={loginPwease} />
+        </div>
+    );
+};
+```
+
+<img src="/assets/nice.png" class="abs" style="width:500px;margin-top:60px;" v-click/>
+
+<!--
+And give it the InjectedConnector,
+
+Which is an overcomplicated way of saying "I wanna talk to metamask"
+
+-click-
+
+Nice!
+-->
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+
+## IN ACTION
+
+<Hidden src="/assets/demo.gif" width="405" height="320" v-click/>
+
+<!--
+Connect Wallet,
+
+Run through prompt
+
+Click, click, et voila!
+
+VICTORY
+-->
+
+
+---
+layout: head
+color: yellow
+tip: CODE
+website: luc.computer
+handle: lucemansnl
+---
+## SAUCE
+
+https://github.com/
+
+lucemans/web3-auth-demo
+
+<!--
+For those of you interested, the sauce is available on my github
+-->
+
+---
+layout: cover
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# NEXT STEPS
+
+<!--
+But that was it!
+
+From here obviously the api exposes a ton of other things, like signing custom messages, for verifying transactions, etc.
+But this is it, all you need to get login working.
+
+The frontend has now verified who the user is which means we can load their data in.
+
+If the user ever attempts to do any authorized actions, we can tell them to just "sign off on it", and we can get a backend to verify (or on the blockchain), but, it works.
+-->
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
+<div style="display:flex;gap:2rem;" v-click>
+<img src="/assets/bitcoin.png" style="width: 80px;" />
+<img src="/assets/ethereum.png" style="width: 80px;left:calc(50% - 40px);" />
+<img src="/assets/polygon.png" style="width: 80px;margin-top:55px;left:calc(50% + 70px);"  />
+</div>
+
+<!--
+So from the feedback ive had so far a lot of people seemed to have been interested in a "blockchain" explaination.
+-->
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
+<div v-click><span class="anim a1">FROM</span> <span class="pink anim a2">ZERO</span> <span class="anim a3">TO</span> <span class="blue anim a4">HERO</span></div>
+
+# BLOCKCHAIN?
+
+<div style="display:flex;gap:2rem;position:absolute;margin-top:-20px;">
+<img src="/assets/bitcoin.png" style="width: 80px;" />
+<img src="/assets/ethereum.png" style="width: 80px;left:calc(50% - 40px);" />
+<img src="/assets/polygon.png" style="width: 80px;margin-top:55px;left:calc(50% + 70px);"  />
+</div>
+
+<!--
+So if you would like to see me try and do a,
+
+blockchain, from zero to hero
+
+then please do tell and who knows :shrug:
+
+-->
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
+<div></div>
+
+<!--
+Regardless, this was (passwordless authentication using web3)
+-->
+
+---
+layout: cover
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# PASSWORDLESS
+#### WITH WEB3
+
+<!--
+(this was) passwordless authentication using web3.
+
+I am your host (luc)
+-->
+
+
+---
+layout: speaker
+color: pink
+name: LUCEMANS
+bio: CREATE EPIC SHIT
+avatar: /assets/avatar.png
+tip: WEB 3.0 AUTH
+website: luc.computer
+handle: lucemansnl
+---
+
+# SPEAKER PAGE
+
+<!--
+(I am your host) luc
+
+Thank (you for listening)
+-->
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# THANKS
+
+<img src="/assets/office.gif" />
+
+<!--
+(Thank) you for listening.
+
+And if you have any (questions)
+-->
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<img src="/assets/answers.gif" />
+
+<!--
+(And if you have any) questions
+
+Speak now or forever hold your peace.
+
+(
+just kidding feel free to talk to me anytime, im attention deprived.
+)
+
+so euuhm, any questions?
+-->
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# THE END
+
+<img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+<div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+    <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+    <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+</div>
+
+<!--
+This is the part where people say bye
+
+Oh and slides are available at luc dot show slash web3-auth
+-->
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+<!--
+so euuhm, any questions?
 -->

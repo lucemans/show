@@ -5,6 +5,7 @@
     --green: #8dffde;
     --dark-text: #121212;
     --white: #fff;
+    --slidev-code-padding: 0px;
 }
 
 div.bg-main.slidev-layout {
@@ -87,8 +88,14 @@ div.head {
             background: var(--green);
         }
     }
+    &.grey {
+        h1,
+        h2 {
+            background: var(--grey);
+        }
+    }
 
-    span {
+    span, h1 {
         &.pink {
             color: var(--pink);
         }
@@ -103,6 +110,29 @@ div.head {
         }
         &.white {
             color: var(--white);
+        }
+        .grey {
+            color: var(--grey);
+        }
+    }
+    h1 {
+        &.bgpink {
+            background: var(--pink);
+        }
+        &.bgblue {
+            background: var(--blue);
+        }
+        &.bgyellow {
+            background: var(--yellow);
+        }
+        &.bggreen {
+            background: var(--green);
+        }
+        &.bgwhite {
+            background: var(--white);
+        }
+        .bggrey {
+            background: var(--grey);
         }
     }
 }
@@ -354,7 +384,7 @@ div.speaker {
     align-items: center;
     gap: 2rem;
     img {
-        height: 24vh;
+        height: 230px;
     }
     h1 {
         color: var(--white);
@@ -451,5 +481,62 @@ div.three-list {
                 object-fit: contain;
             }
         }
+    }
+}
+
+code {
+    // All the codes
+    background: #111 !important;
+    color: white;
+    text-transform: none;
+}
+pre {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 1px solid #fff;
+}
+div > code,
+pre > code {
+    // Block codes
+    display: block;
+    white-space: pre-wrap;
+    padding: 1rem !important;
+    margin: 0rem 0 !important;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        // background: #fff;
+    }
+    &::-webkit-scrollbar-track {
+        background: #1e1e1e;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+        cursor: pointer;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+    }
+}
+
+.slidev-vclick-target.slidev-vclick-hidden {
+    .poof {
+        display: none;
+    }
+}
+
+.poof {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    overflow: hidden;
+    img {
+        margin: 0;
+        max-width: unset !important;
+        object-fit: contain;
     }
 }
