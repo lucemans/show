@@ -1,9 +1,6 @@
 ---
 theme: ./theme/
 title: Web3 Authentication
----
-
----
 layout: cover
 color: pink
 website: luc.computer
