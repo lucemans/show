@@ -804,7 +804,9 @@ handle: lucemansnl
 </ul>
 
 <!--
-The whole idea of the backend.... Are being replaced by smart-contracts, that run on miners, and are open source
+The whole idea of the backend.... Are being replaced by smart-contracts, that run on miners, and are open source.
+
+I could do a whole talk on smart contracts, but thats for later.
 
 The database, that was previously on a server in a datacenter somewhere behind lock and key, is now the public (write-only) blockchain, and data is stored in messages attached to 0-value transactions. (explaination for another time, but yeah)
 
@@ -902,7 +904,7 @@ handle: lucemansnl
 # SIGNING
 
 <!--
-So lets talk about that whole singing thing.
+So lets talk about that whole signing thing.
 
 In order to sign something we need (a payload)
 -->
@@ -1022,6 +1024,8 @@ handle: lucemansnl
 <img src="/assets/the_flow_1.png" />
 
 <!--
+Explain metamask....
+
 In our example, you can see the "connect wallet", or "log in" button if you will.
 
 You click it.
