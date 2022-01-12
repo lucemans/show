@@ -11,6 +11,7 @@
       "copy": "rm -rf ./dist && mkdir ./dist && yarn workspaces run copy"
     },
     "workspaces": [
-        "web3-auth"
+        "web3-auth",
+        "show"
     ]
 }
