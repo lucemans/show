@@ -1568,7 +1568,7 @@ handle: lucemansnl
 
 ## IN ACTION
 
-<Hidden src="/assets/demo.gif" width="405" height="320" v-click/>
+<Hidden src="assets/demo.gif" width="405" height="320" v-click/>
 
 <!--
 Connect Wallet,
