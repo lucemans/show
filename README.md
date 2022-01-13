@@ -1,7 +1,7 @@
 
 ![](assets/banner.png)
 
-Welcome to luc.show, this repository is a mono-repo to store the plethora of slides, shows, related to all the things I do.
+Welcome to [luc.show](https://luc.show/), this repository is a mono-repo to store the plethora of slides, shows, related to all the things I do.
 
 The current repository is set up like this.
 
