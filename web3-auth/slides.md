@@ -1877,3 +1877,448 @@ handle: lucemansnl
 <!--
 so euuhm, any questions?
 -->
+
+<!--
+from here memeing
+-->
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# QUESTIONS?
+
+<div style="display:flex;gap:1rem;margin-top:0.5rem;">
+    <img src="/assets/answers.gif" />
+    <div style="display:flex;flex-direction:column;align-items:center">
+        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
+        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
+            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
+            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+        </div>
+    </div>
+</div>
+
+
+<!--
+And now
+-->
+
+---
+layout: head
+color: pink
+website: luc.computer
+handle: lucemansnl
+---
+
+# hi
+
+hattywashere.
+
+<!--
+I'll literally buy a ticket to React live if you add this in
+easter egg am I right?
+-->
