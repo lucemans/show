@@ -2316,7 +2316,7 @@ handle: lucemansnl
 
 # hi
 
-hattywashere.
+hattywashere.eth <small>xlogic.sh</small>
 
 <!--
 I'll literally buy a ticket to React live if you add this in
