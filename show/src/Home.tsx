@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styled from 'styled-components';
 
-import { HorizontalList } from './components/Flex';
+import { PresentationGrid } from './components/PresentationGrid';
 
 const ContentWrapper = styled.div`
     width: 900px;
@@ -16,8 +16,9 @@ const ContentWrapper = styled.div`
 export const HomePage: FC = () => {
     return (
         <ContentWrapper>
-            <p>Under Construction...</p>
-            <a href="/web3-auth">Passwordless Authentication with web3</a>
+            {/* <p>Under Construction...</p>
+            <a href="/web3-auth">Passwordless Authentication with web3</a> */}
+            <PresentationGrid />
         </ContentWrapper>
     );
 };

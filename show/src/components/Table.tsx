@@ -22,15 +22,12 @@ const Header = styled.div`
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    z-index: 2;
+    border-radius: 0.3rem;
 
     @media screen and (max-width: 500px) {
         max-width: 240px;
     }
-
-    /* padding: 1rem 1rem 1rem 1rem; */
-    /* border-bottom: 1px dotted #686868; */
-    /* display: flex; */
-    /* justify-content: space-between; */
 `;
 const SideHeader = styled.div`
     position: absolute;
