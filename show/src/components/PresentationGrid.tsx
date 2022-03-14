@@ -9,6 +9,10 @@ const Wrapper = styled.div`
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const PresentationGrid: FC = () => {
