@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import { Blurhash } from 'react-blurhash';
-import { Image } from 'react-feather';
 import styled from 'styled-components';
-import presentation from 'url:/show/assets/blockchain-zero-hero.png';
 
+import { PresentationType } from '../static/presentations';
 import { BipolarImage } from './BipolarImage';
+import { Table } from './Table';
 
 const Wrapper = styled.div`
     flex: 1;
@@ -36,7 +36,7 @@ const HoverBlur = styled.div`
     }
 `;
 
-const Button = styled.button`
+const CommingSoon = styled.div`
     background: var(--theme-bg);
     border: 1px solid #686868;
     color: white;
@@ -51,19 +51,19 @@ const Button = styled.button`
     }
 `;
 
-import { Table } from './Table';
-
-export const Presentation: FC = () => {
+export const Presentation: FC<{ presentation: PresentationType }> = ({
+    presentation,
+}) => {
     return (
         <Table
-            header="Presentation"
+            header={presentation.name}
             children={() => [
                 <Wrapper>
                     <BipolarImage
-                        src={presentation}
+                        src={presentation.image}
                         placeholder={
                             <Blurhash
-                                hash="|D8piVj@0#WWoLoJ%1j[WBs+fQR+j@ayazoJf6j[0haz^ioKbGa#Iqf6ofEQj@xVWWo2oJR-bHjY}?j@9vazfRjt$%j[WB=sazIuoKWVWXxDjZf+EOfQ%0a|oLj@Nba|f6ERj@$yWWoLoJNdbHe.s+azWYoKWVa#oJjZj]"
+                                hash={presentation.placeholder}
                                 width="100%"
                                 height="100%"
                                 punch={1}
@@ -73,11 +73,11 @@ export const Presentation: FC = () => {
                         height="100%"
                     />
                     <HoverBlur>
-                        <a href="/web3-auth">
-                            <Button>
-                                <Image />
-                            </Button>
-                        </a>
+                        {presentation.links.length === 0 ? (
+                            <CommingSoon>Comming Soon...</CommingSoon>
+                        ) : (
+                            presentation.links.map((Link) => <Link.component />)
+                        )}
                     </HoverBlur>
                 </Wrapper>,
             ]}

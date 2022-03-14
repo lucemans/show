@@ -1,21 +1,8 @@
 import { FC } from 'react';
 import styled from 'styled-components';
 
+import { AllPesentations } from '../static/presentations';
 import { Presentation } from './Presentation';
-
-type PresentationType = {
-    name: string;
-    image: string;
-    placeholder: string;
-};
-
-const Presentations: PresentationType[] = [
-    {
-        name: '',
-        image: '',
-        placeholder: '',
-    },
-];
 
 const Wrapper = styled.div`
     display: grid;
@@ -27,10 +14,9 @@ const Wrapper = styled.div`
 export const PresentationGrid: FC = () => {
     return (
         <Wrapper>
-            <Presentation />
-            <Presentation />
-            <Presentation />
-            <Presentation />
+            {AllPesentations.map((presentation) => (
+                <Presentation presentation={presentation} />
+            ))}
         </Wrapper>
     );
 };
