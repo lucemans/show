@@ -1,6 +1,7 @@
 import { FC } from 'react';
 
 import { ImageButton } from '../components/ImageButton';
+import { WebsiteButton } from '../components/WebsiteButton';
 
 export type LinkType = {
     component: FC;
@@ -38,6 +39,11 @@ export const AllPesentations: PresentationType[] = [
         links: [
             {
                 component: () => <ImageButton link="/web3-auth" />,
+            },
+            {
+                component: () => (
+                    <WebsiteButton link="https://reactlive.nl/?ref=luc.show" />
+                ),
             },
         ],
         icons: [],
