@@ -24,7 +24,11 @@ export const AllPesentations: PresentationType[] = [
         name: 'Blockchain Zero to Hero',
         image: require('url:/show/assets/blockchain-zero-hero.svg'),
         placeholder: 'TB8piVj@0hxCfQR+0Naz~99|j@$y',
-        links: [],
+        links: [
+            {
+                component: () => <ImageButton link="/blockchain" />,
+            },
+        ],
         icons: [],
     },
     {
