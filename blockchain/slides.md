@@ -129,6 +129,10 @@ handle: lucemansnl
 
 <!--
 Tada
+
+So this is a repository,
+
+it is made up of multiple commits
 -->
 
 ---
@@ -176,7 +180,7 @@ handle: lucemansnl
 <img src="/assets/finger.png" width="40" style="position:absolute;left:380px;top:225px;transform:rotate(0deg)" />
 
 <!--
-This is the commit message
+This is the commit message, "Introduce Login Button
 -->
 
 ---
@@ -251,6 +255,8 @@ handle: lucemansnl
 
 <!--
 Pretty self explainatory right?
+
+Obviously there are pull requests, ci/cd, code review, code owners, protected branches, and much much more, but this is the gist of it
 -->
 
 ---
@@ -321,6 +327,7 @@ handle: lucemansnl
 # GIT COMMIT
 
 <img src="/assets/gittree.png" width="600" style="margin-top: 1rem" />
+<GitTree />
 
 <!---
 *cough*
@@ -468,7 +475,7 @@ handle: lucemansnl
 
 <!--
 But instead of it being hosted on github or somewhere, its stored decentralized, (so its just a bunch of computers that all agree on the current state)
-So thats what we call "consensus", and that is a whole other rabbithole to dive into, and it differs from chain to chain, but in general, lets just assume, everything magically communicates with everything.
+So thats what we call "consensus", and that is a whole other rabbithole to dive into, and it differs from chain to chain, but in general, lets just assume, everything magically communicates with everything. Somehow magically just libp2p or something idk
 -->
 
 ---
