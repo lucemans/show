@@ -24,6 +24,15 @@ As we have seen this shift I have become more and more fascinated with fully pas
 
 This presentation was given during a [passionatepeople](https://passionatepeople.io) lunch & learn session.
 
+## blockchain ([slides](https://luc.show/blockchain/) / [youtube](https://www.youtube.com/watch?v=2uU5_f3shQE))
+
+[![](assets/blockchain.png)](https://luc.show/blockchain/)
+
+In this recording I attempt to explain blockchain in relation to a familiar tool for developers, git. By the end of it you should be familiar with the basics of blockchain and the implementation of smart contracts.
+
+
+This presentation was given during a [passionatepeople](https://passionatepeople.io) lunch & learn session.
+
 ## more
 
 More to come :wink:
