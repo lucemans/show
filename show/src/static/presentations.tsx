@@ -2,6 +2,7 @@ import { FC } from 'react';
 
 import { ImageButton } from '../components/ImageButton';
 import { WebsiteButton } from '../components/WebsiteButton';
+import { YoutubeButton } from '../components/YoutubeButton';
 
 export type LinkType = {
     component: FC;
@@ -28,6 +29,11 @@ export const AllPesentations: PresentationType[] = [
         links: [
             {
                 component: () => <ImageButton link="/blockchain" />,
+            },
+            {
+                component: () => (
+                    <YoutubeButton link="https://www.youtube.com/watch?v=2uU5_f3shQE" />
+                ),
             },
         ],
         icons: [],
