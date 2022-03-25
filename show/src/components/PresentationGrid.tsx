@@ -6,7 +6,7 @@ import { Presentation } from './Presentation';
 
 const Wrapper = styled.div`
     display: grid;
-    gap: 1rem;
+    gap: 1.4rem 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
