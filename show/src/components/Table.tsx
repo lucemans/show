@@ -59,7 +59,6 @@ const Columns = styled.div`
         border-left: 1px dotted #686868;
     }
     @media screen and (max-width: 765px) {
-        flex-direction: column;
         ${Column} + ${Column} {
             border-left: 0;
             border-top: 1px dotted #686868;
