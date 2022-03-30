@@ -61,13 +61,17 @@ handle: lucemansnl
 ## AGENDA
 
 <ul>
-    <li>The Problem</li>
-    <li>Passwordless</li>
-    <li>Web 1 vs Web 2 vs Web 3</li>
-    <li>Migrating to Web 3</li>
-    <li>Identity Management</li>
-    <li>Demo</li>
+    <li v-click>The Problem</li>
+    <li v-click>Passwordless</li>
+    <li v-click>Web 1 vs Web 2 vs Web 3</li>
+    <li v-click>Migrating to Web 3</li>
+    <li v-click>Identity Management</li>
+    <li v-click>Demo</li>
 </ul>
+
+<!--
+But before we can start, some disclaimers -click-
+-->
 
 ---
 layout: head
@@ -86,6 +90,14 @@ handle: lucemansnl
     <li v-click>I cannot guarantee that I'm funny</li>
 </ul>
 
+<!--
+I will go very fast
+If I peek your interest, yay
+If you want to read more, check luc.computer, that where I post most of my shit
+
+And last but not least I cannot guarantee that I am funny
+-->
+
 ---
 layout: head
 color: blue
@@ -97,11 +109,11 @@ handle: lucemansnl
 ## THANKS
 
 <div>
-<span class="blue">@dawntraoz</span>
-<p>for creating <span class="pink">slidev-theme-unicorn</span></p>
+<span class="blue" v-click>@dawntraoz</span>
+<p v-click>for inspiring me to use <span class="pink">slidev</span></p>
 
-<span class="blue">@passionatepeople</span>
-<p>for making this <span class="pink">this happen</span></p>
+<span class="blue" v-click>@reactlivenl</span>
+<p v-click>for making this <span class="pink">this happen</span></p>
 </div>
 
 <!--
@@ -131,6 +143,10 @@ handle: lucemansnl
 # ITZ COOL
 
 <img src="/assets/cool.png" />
+
+<!--
+No but to be real with you, its because (passwords, are a pain)
+-->
 
 ---
 layout: cover
@@ -232,9 +248,9 @@ handle: lucemansnl
 </ul>
 
 <!--
-bitwarden. Cause its simple, feature complete, cross platform, which includes mobile, auto-recognizes input text-boxes. And self-hostable, which, is a big bonus for me.
+bitwarden. Cause it has all of these benefits
 
-But enough about bitwarden, why, you ask
+But enough about bitwarden, (why, you ask)
 -->
 
 ---
@@ -484,11 +500,11 @@ handle: lucemansnl
 # BUZZWORDS
 
 <ul>
-    <li>NFT</li>
-    <li>EXCHANGE RATE</li>
-    <li>MARKET CAP</li>
-    <li>CRYPTO</li>
-    <li>DAO</li>
+    <li v-click>NFT</li>
+    <li v-click>EXCHANGE RATE</li>
+    <li v-click>MARKET CAP</li>
+    <li v-click>CRYPTO</li>
+    <li v-click>DAO</li>
 </ul>
 
 <!--
@@ -677,6 +693,7 @@ handle: lucemansnl
 <ul>
     <li v-click>DISTRIBUTED PROCESSING</li>
     <li v-click>USER CONTROLS DATA</li>
+    <li v-click>CRYPTOGRAPHY</li>
 </ul>
 
 <!---
@@ -692,6 +709,8 @@ Yes, data is public usually public, but thats better then on some companies comp
 We are all guilty of it, be real, who of you has read every license agreement of every company they have ever dealt with, directly or indirectly.
 
 Noone, exactly.
+
+So with all of this in mind, i see how people are quick to say (bye bye to the datacenters)
 -->
 
 ---
@@ -705,7 +724,7 @@ handle: lucemansnl
 <img src="/assets/servers.png" />
 
 <!---
-With the distributed computing, we can say goodbye to these guys, the servers
+Bye bye to the datacenters, but not so quick
 -->
 
 ---
@@ -716,18 +735,19 @@ website: luc.computer
 handle: lucemansnl
 ---
 
-## DECENTRALIZED
+## HOSTING
 
 <ul>
-    <li>NO SERVERS</li>
-    <li>USER CONTROLS DATA</li>
-    <li v-click>CRYPTOGRAPHY</li>
+    <li v-click>Users</li>
+    <li v-click>Write</li>
+    <li v-click>Read</li>
 </ul>
 
 <!---
-So in the decentralized world, in order for everything to be nice and secure we eavily rely on cryptography to do the work for us.
+However in a distributed world, the burder of upkeep has shifted from creators/coorporations paying thousands in server hosting fees.
+To the users of the platform, paying in small increments, for any write-actions they perform. Reading from the blockchain ofcourse is free.
 
-More on that in a moment.
+So now that we have seen this, lets talk about some differences between web3 and web2
 -->
 
 ---
@@ -1707,42 +1727,16 @@ website: luc.computer
 handle: lucemansnl
 ---
 
-<div style="display:flex;gap:2rem;" v-click>
-<img src="/assets/bitcoin.png" style="width: 80px;" />
-<img src="/assets/ethereum.png" style="width: 80px;left:calc(50% - 40px);" />
-<img src="/assets/polygon.png" style="width: 80px;margin-top:55px;left:calc(50% + 70px);"  />
+<div style="display:flex;flex-direction:column;justify-content:center;align-items:center;">
+<div style="display: flex;justify-content: center; align-items: center;gap: 1rem;">
+    <img src="/assets/youtube.svg" width="50" style="margin: 0;" />
+    <div style="font-size: 2rem;">lucemans</div>
+</div>
+<img src="/assets/blockchain.png" width="450" style="border: 1px solid white; margin: 0; margin-top: 1rem;"/>
 </div>
 
 <!--
-I have shown this talk to a few people so far
-
-So from the feedback ive had so far a lot of people seemed to have been interested in a "blockchain" explaination.
--->
-
----
-layout: cover
-color: yellow
-website: luc.computer
-handle: lucemansnl
----
-
-<div v-click><span class="anim a1">FROM</span> <span class="pink anim a2">ZERO</span> <span class="anim a3">TO</span> <span class="blue anim a4">HERO</span></div>
-
-# BLOCKCHAIN?
-
-<div style="display:flex;gap:2rem;position:absolute;margin-top:-20px;">
-<img src="/assets/bitcoin.png" style="width: 80px;" />
-<img src="/assets/ethereum.png" style="width: 80px;left:calc(50% - 40px);" />
-<img src="/assets/polygon.png" style="width: 80px;margin-top:55px;left:calc(50% + 70px);"  />
-</div>
-
-<!--
-So if you would like to see me try and do a,
-
-blockchain, from zero to hero
-
-then please do tell and who knows :shrug:
-
+Due to a surprising amount of requests, I have decided to upload my `blockchain from zero to hero` talk to youtube, so if you want to watch that you can find it, name is lucemans, as per usual
 -->
 
 ---
