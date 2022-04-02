@@ -30,6 +30,8 @@ handle: lucemansnl
 <!--
 Welcome to my speaker page, here I get egoistic and talk about my self for a bit.
 
+So for the next 20 minutes
+
 Welcome to (from zero to hero, passwordless authentication)
 -->
 
@@ -96,6 +98,20 @@ If I peek your interest, yay
 If you want to read more, check luc.computer, that where I post most of my shit
 
 And last but not least I cannot guarantee that I am funny
+-->
+
+---
+layout: head
+color: blue
+tip: A PICTURE WORTH A THOUSAND WORDS
+website: luc.computer
+handle: lucemansnl
+---
+
+<img src="/assets/draw.jpeg" />
+
+<!--
+Oh and im not as good at drawing as maggie is.
 -->
 
 ---
@@ -1746,6 +1762,19 @@ website: luc.computer
 handle: lucemansnl
 ---
 
+<img src="/assets/rick.gif" style="width: 50vw; height: 50vw;object-fit: contain;position:absolute;left:5%;top:0;" />
+
+<!--
+Oops
+-->
+
+---
+layout: cover
+color: yellow
+website: luc.computer
+handle: lucemansnl
+---
+
 <div></div>
 
 <!--
@@ -1845,29 +1874,4 @@ handle: lucemansnl
 This is the part where people say bye
 
 Oh and slides are available at luc dot show slash web3-auth
--->
-
-
----
-layout: head
-color: pink
-website: luc.computer
-handle: lucemansnl
----
-
-# QUESTIONS?
-
-<div style="display:flex;gap:1rem;margin-top:0.5rem;">
-    <img src="/assets/answers.gif" />
-    <div style="display:flex;flex-direction:column;align-items:center">
-        <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
-        <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
-            <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
-            <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
-        </div>
-    </div>
-</div>
-
-<!--
-so euuhm, any questions?
 -->
