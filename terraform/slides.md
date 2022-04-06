@@ -1098,7 +1098,7 @@ just kidding feel free to talk to me anytime, im attention deprived, and i live 
 
 ---
 layout: head
-color: pink
+color: terraform
 website: luc.computer
 handle: lucemansnl
 ---
@@ -1108,7 +1108,7 @@ handle: lucemansnl
 <img src="/assets/qr.png" style="height:140px;border-radius:0.5rem;margin-top:1rem;">
 <div style="display:flex;flex-direction:column;align-items:center;margin-top:0.5rem;">
     <div class="grey"><span class="white">luc</span><span class="pink">.show</span></div>
-    <h1 class="white bgblue" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/web3-auth</h1>
+    <h1 class="white bgterraform" style="font-size:1.4rem;width:fit-content;min-width:unset;min-height:unset;height:auto;line-height:2rem;">/terraform</h1>
 </div>
 
 <!--

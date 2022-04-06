@@ -26,7 +26,11 @@ export const AllPesentations: PresentationType[] = [
         name: 'Terraform Zero to Hero',
         image: require('url:/show/assets/terraform-zero-hero.svg'),
         placeholder: 'L65N[,t7EGWXoOogj=of9:kC?1s:',
-        links: [],
+        links: [
+            {
+                component: () => <ImageButton link="/terraform" />
+            },
+        ],
         icons: [],
     },
     {
