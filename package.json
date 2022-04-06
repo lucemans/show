@@ -11,6 +11,7 @@
       "copy": "rm -rf ./dist && mkdir ./dist && yarn workspaces run copy"
     },
     "workspaces": [
+        "terraform",
         "blockchain",
         "web3-auth",
         "show"
