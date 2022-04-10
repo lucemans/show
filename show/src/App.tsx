@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     text-transform: uppercase;
   }
   html {
-    overflow-y: scroll;
+    overflow-y: overlay;
   }
   * {
     box-sizing: border-box;
@@ -50,7 +50,7 @@ const GlobalStyle = createGlobalStyle`
     background: transparent;
   }
   :root {
-    font-size: 16px;
+    font-size: 18px;
     --theme-bg: var(--color-almost-black);
     --theme-text-main: var(--color-white);
     --theme-text-post: var(--color-text-white);
@@ -78,7 +78,7 @@ const GlobalStyle = createGlobalStyle`
       --color-alt: #6c6c6c;
     }
     :root {
-      font-size: 14px;
+      font-size: 18px;
     }
   }
 `;
