@@ -71,6 +71,11 @@ const GlobalStyle = createGlobalStyle`
     --color-main: var(--theme-text-main);
     --color-alt: var(--theme-text-alt);
   }
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
   @media print {
     html, body {
       --color-bg: white;
@@ -88,6 +93,7 @@ const Center = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    flex-grow: 1;
 `;
 
 export const App = () => {
@@ -109,6 +115,7 @@ export const App = () => {
             <Center className="content">
                 <HomePage />
             </Center>
+            <luc-footer />
         </Router>
     );
 };
