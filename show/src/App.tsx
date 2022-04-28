@@ -91,7 +91,7 @@ const GlobalStyle = createGlobalStyle`
 const Center = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     flex-grow: 1;
 `;
