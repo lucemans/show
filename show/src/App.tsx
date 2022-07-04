@@ -4,7 +4,6 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 import { NavBar } from './components/Navbar';
 import { HomePage } from './Home';
-import { ProjectPage } from './ProjectPage';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -100,7 +99,10 @@ export const App = () => {
     useEffect(() => {
         if (
             location.protocol !== 'https:' &&
-            !(location.href.includes('localhost') || location.href.includes('127.0.0.1'))
+            !(
+                location.href.includes('localhost') ||
+                location.href.includes('127.0.0.1')
+            )
         ) {
             location.replace(
                 `https:${location.href.slice(location.protocol.length)}`
@@ -112,10 +114,12 @@ export const App = () => {
         <Router>
             <GlobalStyle />
             <NavBar />
-            <Center className="content">
-                <HomePage />
-            </Center>
-            <luc-footer />
+
+            <luc-wrapper>
+                <Center className="content">
+                    <HomePage />
+                </Center>
+            </luc-wrapper>
         </Router>
     );
 };

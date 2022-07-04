@@ -11,6 +11,9 @@ const ContentWrapper = styled.div`
     > * {
         margin-bottom: 2rem;
     }
+    @media screen and (min-width: 1400px) {
+        padding-top: 100px;
+    }
 `;
 
 export const HomePage: FC = () => {

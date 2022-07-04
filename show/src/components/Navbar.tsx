@@ -46,7 +46,7 @@ const Img = styled.img`
 export const NavBar = () => {
     return (
         <Wrapper>
-            <luc-header></luc-header>
+            {/* <luc-header></luc-header> */}
             {/* <Nav>
                 <Link href="/">
                     <Img
