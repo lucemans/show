@@ -28,7 +28,7 @@ export const AllPesentations: PresentationType[] = [
         placeholder: 'L65N[,t7EGWXoOogj=of9:kC?1s:',
         links: [
             {
-                component: () => <ImageButton link="/terraform" />
+                component: () => <ImageButton link="/terraform" />,
             },
         ],
         icons: [],
@@ -60,6 +60,11 @@ export const AllPesentations: PresentationType[] = [
             {
                 component: () => (
                     <WebsiteButton link="https://reactlive.nl/?ref=luc.show" />
+                ),
+            },
+            {
+                component: () => (
+                    <YoutubeButton link="https://www.youtube.com/watch?v=gcsunutwMxU" />
                 ),
             },
         ],
