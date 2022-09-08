@@ -18,6 +18,8 @@ hi there everyone can yall year me?
 
 -check chat-
 
+Good morning, afternoon of evening wherever and whenever you are.
+
 I am (0x225)
 -->
 
@@ -679,21 +681,93 @@ practically a resolver on your toaster if you felt like it.
 
 ---
 
+<img src="/assets/ccip.png" class="max-w-xl -mt-8 mr-8">
+
+<!--
+The way CCIP read works it it allows us to throw a custom error on our mainnet resolver, that says "oop, you gonna need to check this other place" and redirect you towards where to go
+
+The library in question will then take action and reach out to that resource and handle the request for you so this is NO extra effort on your part.
+-->
+
+---
+
 <h1>Libraries</h1>
 
 <!--
 NExt lets talk about libraries
 
 ENS works together with all your favourite EVM libraries you probably are already using.
+
+so you might want top check their documentation
 -->
 
 ---
 
-<h1>Ethers & Wagmi</h1>
+<ul class="text-xl flex gap-4 font-bold">
+<li>Ethers</li>
+<li>Wagmi</li>
+<li>ENS.js</li>
+<li>Web3.js</li>
+<li>Web3j</li>
+<li>KEthereum</li>
+<li>web3.py</li>
+<li>go-ens</li>
+</ul>
+
+<!--
+And here are just some of the libraries that support ENS out of the box
+-->
+
+---
+
+<h1 class="mb-4">Forward Resolution</h1>
+
+<img src="/assets/lib_for_res.png" class="max-w-xl" />
+
+---
+
+<h1 class="mb-4">Reverse Resolution</h1>
+
+<img src="/assets/lib_rev_res.png" class="max-w-xl" />
+
+---
+
+<h1 class="mb-4">and more</h1>
+
+<!--
+and more
+
+(And I havent even had time to talk about subdomains)
+-->
+
+---
+
+<h1 class="mb-4">Subdomains</h1>
+
+<!--
+And I havent even had time to talk about subdomains, that you can put in your resolver, yup, tons or more features
+
+, so if you wanna find out more about this make sure to check our (documentation)
+-->
 
 ---
 
 <h1>Documentation</h1>
+<a href="https://docs.ens.domains/" style="color: blue">https://docs.ens.domains/</a>
+
+<!--
+Documentation,
+
+which can be found at https://docs.ens.domains/
+-->
+
+---
+
+<img src="/assets/cool.png" class="max-w-xl" v-click />
+
+<!--
+So I see you going "wow, this is cool, how do I get one of these"
+-->
 
 ---
 
@@ -710,9 +784,18 @@ normally, you would use the (ens manager)
 
 ---
 
+<div class="flex flex-col items-center">
 <h1 class="w-screen max-w-3xl text-center mb-2">
 ENS Manager
 </h1>
+<div class="flex gap-4" style="color: #5298FF">
+<h3 v-click>ENS Fairy</h3>
+<h3 v-click>Rainbow</h3>
+<h3 v-click>Coinbase</h3>
+<h3 v-click>Lens</h3>
+<h3 v-click>Argent</h3>
+</div>
+</div>
 
 ---
 
@@ -750,17 +833,6 @@ ENS Manager
 
 <!--
 
--->
-
----
-
-<h1 class="flex gap-4 items-center">
-<img src="/assets/register_0.png" class="w-16" />
-How to register?
-</h1>
-
-<!--
-so how do you register
 -->
 
 ---
@@ -837,8 +909,79 @@ Register your name
 
 ---
 
-<!-- <img src="/assets/" class="max-w-xl shadow-md rounded-md" /> -->
+<img src="/assets/profile_final.png" class="max-w-2xl" />
+
+<!--
+And then voila, your name is registered
+-->
+
+---
+
+<h3 class="flex gap-4 items-center mb-4">
+<img src="/assets/frame.png" class="w-8" />
+Setting your Avatar
+</h3>
+
+<!--
+So how does one go about changing their avatar
+-->
+
+---
+
+<h3 class="flex gap-4 items-center mb-4">
+<img src="/assets/frame.png" class="w-8" />
+Setting your Avatar
+</h3>
+<img src="/assets/avatar_1.png" class="max-w-xl" />
+
+<!--
+Here is your profile, you can press the add/edit record button
+-->
+
+---
+
+<h3 class="flex gap-4 items-center mb-4">
+<img src="/assets/frame.png" class="w-8" />
+Setting your Avatar
+</h3>
+<img src="/assets/avatar_2.png" class="max-w-xl" />
+
+<!--
+And then you can fill in an ipfs link, an arweave link, or just an http link if thats what u prefer.
+
+and then you have your profile picture!
+-->
+
+
+---
+
+<h3 class="flex gap-4 items-center mb-4">
+<img src="/assets/frame.png" class="w-8" />
+One last thing...
+</h3>
+<img src="/assets/rick.gif" class="max-w-xl" v-click />
+
+<!--
+Oh and last but not least I really quickly wanted to
+-->
+
+---
+
+<h1 class="flex gap-4 items-center mb-4">
+lucemans.eth
+</h1>
+<h3>@lucemansnl</h3>
 
 <!--
 
 -->
+
+
+---
+
+<div class="flex items-center flex-col">
+    <img src="/assets/happy_hacking.png" class="max-w-xl">
+    <h1 class="flex gap-4 items-center mt-4">
+    Happy Hacking!
+    </h1>
+</div>

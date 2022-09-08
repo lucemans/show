@@ -23,6 +23,17 @@ export type PresentationType = {
 
 export const AllPesentations: PresentationType[] = [
     {
+        name: 'ENS @ ETHOnline 2022',
+        image: require('url:/show/assets/eth_online_2022.png'),
+        placeholder: 'T97]_0fQ0]+zj[K00]a{^U2-fQ[E',
+        links: [
+            {
+                component: () => <ImageButton link="/eth-online-2022" />,
+            },
+        ],
+        icons: [],
+    },
+    {
         name: 'Terraform Zero to Hero',
         image: require('url:/show/assets/terraform-zero-hero.svg'),
         placeholder: 'L65N[,t7EGWXoOogj=of9:kC?1s:',
