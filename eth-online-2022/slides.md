@@ -837,7 +837,7 @@ Register your name
 
 ---
 
-<img src="/assets/" class="max-w-xl shadow-md rounded-md" />
+<!-- <img src="/assets/" class="max-w-xl shadow-md rounded-md" /> -->
 
 <!--
 
