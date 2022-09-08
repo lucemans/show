@@ -11,7 +11,7 @@ color: pink
 
 ---
 
-# Hi there, <img src="/assets/👋.png" class="h-12 inline" />
+# Hi there, <img src="/assets/wave.png" class="h-12 inline" />
 
 <!--
 hi there everyone can yall year me?
