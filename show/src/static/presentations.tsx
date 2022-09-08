@@ -30,6 +30,11 @@ export const AllPesentations: PresentationType[] = [
             {
                 component: () => <ImageButton link="/eth-online-2022" />,
             },
+            {
+                component: () => (
+                    <YoutubeButton link="https://www.youtube.com/watch?v=26JAdqjcrDI" />
+                ),
+            },
         ],
         icons: [],
     },
