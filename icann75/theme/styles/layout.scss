@@ -1,22 +1,22 @@
 :root {
     --gray: #f7f7f7;
-    --gray-two: #9B9BA7;
+    --gray-two: #9b9ba7;
     --gray-three: #454545;
     --black: #333333;
 
-    --pink: #FF2D55;
-    --blue: #5298FF;
-    --light-blue: #EEF5FF;
-    --indigo: #5854D6;
-    --yellow: #E8B811;
-    --light-yellow: #FFF5CD;
-    --red: #D55555;
-    --light-red: #F9E7E7;
-    --orange: #FF9500;
-    --green: #49B393;
-    --light-green: #E7F4EF;
-    --purple: #AF52DE;
-    --teal: #5AC8FA;
+    --pink: #ff2d55;
+    --blue: #5298ff;
+    --light-blue: #eef5ff;
+    --indigo: #5854d6;
+    --yellow: #e8b811;
+    --light-yellow: #fff5cd;
+    --red: #d55555;
+    --light-red: #f9e7e7;
+    --orange: #ff9500;
+    --green: #49b393;
+    --light-green: #e7f4ef;
+    --purple: #af52de;
+    --teal: #5ac8fa;
     --dark-text: #242320;
     --white: #fff;
     --slidev-code-padding: 0px;
@@ -29,7 +29,13 @@ div.bg-main.slidev-layout {
 
     @apply pt-10;
 
-    h1, h2, h3, h4, h5, h6, p {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
         font-weight: bolder;
     }
 
@@ -46,9 +52,13 @@ div.bg-main.slidev-layout {
     }
 }
 
-html { font-family: 'Inter', sans-serif; }
+html {
+    font-family: "Inter", sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+    html {
+        font-family: "Inter var", sans-serif;
+    }
 }
 
 div.slidev-layout {
@@ -59,4 +69,11 @@ div.slidev-layout {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.bgdao {
+    background: linear-gradient(323.31deg, #73A6F2 -15.56%, #42C2AB 108.43%); background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }

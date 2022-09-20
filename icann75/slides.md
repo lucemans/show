@@ -31,6 +31,8 @@ Wether youre joining in person, here in kuala lumpur, or virtually.
 Thank you for being here.
 
 As stated, my name is luc van kampen, and I am here today to talk about the Ethereum Name Service.
+
+(the internet is evolving)
 -->
 
 ---
@@ -38,7 +40,9 @@ As stated, my name is luc van kampen, and I am here today to talk about the Ethe
 <img src="/assets/window.png" class="h-84" />
 
 <!--
-The internet is ever evolving. every single day
+The internet is ever evolving.
+
+I mean we are here after all.
 -->
 
 ---
@@ -46,7 +50,7 @@ The internet is ever evolving. every single day
 # 1989
 
 <!--
-In 1989 ICANN was founded
+In 1989 ICANN was founded. To bring clarity, order, and logic, to the chaos that is the internet.
 -->
 
 ---
@@ -139,7 +143,9 @@ can now be used for user authentication
 <h2 v-click>Name Availability</h2>
 
 <!--
-With this, the days of insecure passwords, leaks, mass acount hcks and name availablity are limited.
+With this, the end to insecure passwords, leaks, mass acount hcks and name availablity is near.
+
+name availability, a slightly weird issue, but still very prevalent, allow me to explain.
 -->
 
 ---
@@ -180,6 +186,8 @@ With this, the days of insecure passwords, leaks, mass acount hcks and name avai
 </div>
 
 <!--
+If we look at some of ICANN's social media for example.
+
 youtube icann is videos of someones dog.
 facebook icann is a guy named ican n.
 instagram is an empty account.
@@ -191,12 +199,16 @@ instagram is an empty account.
 
 <!--
 So public key authentication solves a lot of these issues.
+
+Users have a public-key private-key keypair
+
+(where the users public key, is used to identity them on the internet.)
 -->
 
 ---
 
 <div class="flex gap-4 items-center">
-<div v-click class="flex flex-col gap-2 items-start">
+<div class="flex flex-col gap-2 items-start">
 <div>
 <img src="/assets/lock.png" class="h-8 inline" />
 <img src="/assets/name.png" class="h-8 inline" />
@@ -213,19 +225,23 @@ So public key authentication solves a lot of these issues.
 </div></div>
 
 <!--
-Users have a public-key private-key keypair
-
-the public key is used as their identified accross the internet
+where the users public key, is used to identity them on the internet
 
 and their private key is stored on their local device and doesnt leave the device.
+
+(now the beautiful thing)
 -->
 
 ---
 
-SINGLE TAP SLIDE
+<img src="/assets/you_have.png" class="absolute pb-7" style="transform: translate(-50%, -50%);" />
 
 <!--
 Now the beautiful thing is when a user wants to sign in all they have to do is tap a button on their phone, or press confirm on their computer.
+
+Using their favourite biometrics, face ID, pin-code, password, or OTP,
+
+All locally, on their device.
 -->
 
 ---
@@ -237,17 +253,24 @@ Now the beautiful thing is when a user wants to sign in all they have to do is t
         </div>
         <div class="w-42 break-all font-bold">0x225f137127d9067788314bc7fcc1f36746a3c3b5</div>
     </div>
-    <div class="flex flex-col items-start gap-4">
-        <div><span v-click>Security</span><img src="/assets/checkmark.png" class="h-4 inline ml-2" v-click /></div>
-        <div><span v-click>Machine-Readability</span><img src="/assets/checkmark.png" class="h-4 inline ml-2" v-click /></div>
-        <div><span v-click>Human-Readability</span><img src="/assets/meh.png" class="h-4 inline ml-2" v-click /></div>
+    <div class="flex flex-col items-start gap-4 text-xl font-bold">
+        <div><span v-click>Security</span><img src="/assets/checkmark.png" class="h-4 inline ml-3" v-click /></div>
+        <div><span v-click>Scalability</span><img src="/assets/checkmark.png" class="h-4 inline ml-3" v-click /></div>
+        <div><span v-click>Machine-Readability</span><img src="/assets/checkmark.png" class="h-4 inline ml-3" v-click /></div>
+        <div><span v-click>Human-Readability</span><img src="/assets/meh.png" class="h-4 inline ml-3" v-click /></div>
     </div>
 </div>
 
 <!--
-Now although this method from a security persepective is awesome,
+So, public key encryption,
+
+from a security perspective is awesome,
+
+from a scalability perspective, is awesome,
+
 from a machine readability perspective, it is awesome, because the public key is a fixed length, which means easy validation, set storage length, etc.
-from a human readability, lets be real, this is not great.
+
+but from a human readability, lets be real, this is not great.
 -->
 
 ---
@@ -422,6 +445,41 @@ anybody looking to find me on the internet, on any website that supports ens
 
 ---
 
+# Many more
+
+<!--
+And many many more
+
+(in fact at this very moment)
+-->
+
+---
+
+<div class="flex gap-8">
+<div>
+    <h1>2.4 Million</h1>
+    <h2>Names</h2>
+</div>
+<div v-click>
+    <h1>600k+</h1>
+    <h2>Users</h2>
+</div>
+<div v-click>
+    <h1>1k+</h1>
+    <h2>Integrations</h2>
+</div>
+</div>
+
+<!--
+(In fact at this very moment) we have over 2.4 million active names, spread out accross around 600k+ different people around the world.
+
+and over thousands of sites already support ENS natively.
+
+(so how)
+-->
+
+---
+
 # How?
 
 <!--
@@ -434,10 +492,18 @@ Seeing as I only have 10 minutes and am limited by time I will keep it brief
 
 ---
 
+<img src="/assets/ens.svg" class="h-32" />
+
+<!--
+ENS, the Ethereum Name Service, is built ontop of the (Ethereum Blockchain)
+-->
+
+---
+
 <img src="/assets/ethereum.png" class="h-32" />
 
 <!--
-ENS, the Ethereum Name Service, is built ontop of the Ethereum Blockchain.
+Ethereum Blockchain. (Ethereum is a public ledger)
 -->
 
 ---
@@ -472,7 +538,13 @@ It has these things called smart contracts, which are essentially pieces of code
 </div>
 
 <!--
-ENS simply stores the name of the domain, and what public key, (or address if you will) is the current manager, and where it can go to fetch more info about the domain.
+ENS simply stores the name of the domain, and what public key, (or address if you will) is the current manager,
+
+As well as reverse lookup, so you can feed it an address and it will spit out the name.
+
+and where it can go to fetch more info about the domain.
+
+things like avatar, banner, bio, phone number, or other ways to reach out.
 -->
 
 ---
@@ -488,7 +560,7 @@ ENS simply stores the name of the domain, and what public key, (or address if yo
 <div class="text-cyan-500" v-click>*provided it supports DNSSEC</div>
 
 <!--
-Any valid DNS domain *provided it supports DNSSEC, can be submitted to a smart contract, and those smart contracts then verify that you are the owner of the Domain by verifying TXT DNS records.
+Any valid DNS domain *provided it supports DNSSEC, can be submitted to the smart contract, and those smart contracts then verify that you are the owner of the Domain by verifying TXT DNS records.
 -->
 
 ---
@@ -502,15 +574,32 @@ If the registrant of a domain changes the new user has the ability to claim its 
 ---
 
 <h1 v-click>On-Chain Registry</h1>
-<h2></h2>
 
 <!--
 In addition to the above, we have also built an on-chain registry.
 That allows users to register domain names on the chain itself.
+
+(This all is done under the)
+-->
+
+---
+
+# .eth
+
+<!--
 This specifically is done under the .eth TLD
- 
-Under this TLD we have a registration fee of the equivalent of 5 USD.
-This is done to prevent users from hogging up the entire collection of names.
+
+This tld (enables us)
+-->
+
+---
+
+# Decentralized Web
+
+<!--
+(this tld) enables us to build decentralized applications, that users can visit without have to contact a central web server.
+
+websites that can be loaded at ridiculously fast and scalable speeds because data locality isnt a problem anymore. Worth a whole other talk on its own.
 -->
 
 ---
@@ -518,6 +607,9 @@ This is done to prevent users from hogging up the entire collection of names.
 # Registration Fees
 
 <!--
+Under this TLD we have a registration fee of the equivalent of 5 USD.
+This is done to prevent users from hogging up the entire collection of names.
+
 These registration fees go to the ENS DAO
 -->
 
@@ -528,7 +620,7 @@ These registration fees go to the ENS DAO
 <!--
 (the ens dao),
 
-a non profit organization that utalizes them to fund other public goods,
+a non profit organization that utalizes them to fund public goods,
 
 and projects in the ecosystem.
 -->
@@ -538,10 +630,10 @@ and projects in the ecosystem.
 <img src="/assets/dao.svg" class="h-18 mb-4" />
 
 <div class="flex text-4xl">
-    <div class="flex flex-col">
-        <b>D</b>
-        <b>A</b>
-        <b>O</b>
+    <div class="flex flex-col text-transparent">
+        <b class="bgdao" style="">D</b>
+        <b class="bgdao" style="">A</b>
+        <b class="bgdao" style="">O</b>
     </div>
     <div>
         <div v-click>ecentralized</div>
@@ -556,7 +648,13 @@ The ens dao, is a Decentralized Autonomous Organization
 
 ---
 
-<img src="/assets/dao.svg" class="h-18 mb-4" />
+<img src="/assets/dao.svg" class="h-22 -ml-3" />
+<h3 v-click>Transparent</h3>
+<h3 v-click>Publically Governed</h3>
+<h3 v-click>Working Groups</h3>
+<h3 v-click>ENS Improvement Proposals</h3>
+<h3 v-click>Stewards</h3>
+<h3 v-click>Anyone</h3>
 
 <!--
 The ENS DAO is completely public, and similar to ICANN Multi-stakeholder model in many ways.
@@ -572,19 +670,19 @@ And most of all, anyone can take part.
 
 ---
 
-# Motivation
+# 📢 Motivation
 
 <!--
 Why
 
 I can hear you say.
 
-I would say there is none.
+Let me explain.
 -->
 
 ---
 
-# Public Good
+# 🌎 Public Good
 
 <!--
 We are a collective of open source public good contributors who care to make a difference in the world.
@@ -592,15 +690,15 @@ We are a collective of open source public good contributors who care to make a d
 
 ---
 
-# Funding
+# 💰 Funding
 
 <!--
-Development on ENS, is funded by the ENS DAO, and is annually publically voted on by the DAO.
+Development on ENS, is funded by the ENS DAO, and is done through proposal, and is annually publically voted on by the DAO
 -->
 
 ---
 
-# Goals
+# 🥅 Goals
 
 <!--
 In contrary to some of the other systems out there, we aim to extend and improve the DNS' functionality with today and tomorrow in mind.
@@ -608,39 +706,34 @@ In contrary to some of the other systems out there, we aim to extend and improve
 
 ---
 
+<h1 v-click>Questions ❓</h1>
+<h2 v-click class="text-blue-500">luc.contact</h2>
+
 <!--
+Okay.
+
+-breathe-
+
+In a minute I think we have time for questions.
+
+If your question does not end up getting answered, or you have one after the fact, you can always reach out to me, @ luc.contact
+-->
+
+---
+
+<h1>🙏 Thank you</h1>
+
+<!--
+I just quickly wanted to say
+
 Thank you for your time, and I look forward, to the great things we can accomplish together.
 -->
 
 ---
 
+<h1>Questions ❓</h1>
+<h2 class="text-blue-500">luc.contact</h2>
 
 <!--
-Target Time: 10 minutes
-Presentation: 3:4, but not sure
-
-good morning icann75
-my name is luc van kampen
-
-the internet is evolving every single day.
-in the web3 space
-shift from username password authentication, to public key authentication.
-the provable technologies we use today, that power https, ssl, pgp, dnssec, and many more,
-can now be used for user authentication.
-with this, the days of passwords, password leaks, mass account hacks, and name stealing are over.
-
-Using public key authentication users simply have a private key, and sign messages in order to perform actions.
-Authentication, posting a message, and more, are simply authorized using the private key, and allow us to get explicit user confirmation.
-
-With this, users public-keys are now their identity accross the web, and although this system is works very well from a security and machine perspective, it lacks human-readability.
-
---
-
-in contrary to other systems that might be out ther we are focused on integrating and extending the DNS
-we want to work with icann to build a better internet.
-
-we want to coorperate and integrate with the internet community.
-
-looking forward to working together.
-
+Questions slot
 -->
