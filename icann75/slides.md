@@ -519,7 +519,7 @@ Ethereum is a public ledger that allows us to keep track of information in a dec
 # 📜 Smart Contracts
 
 <!--
-It has these things called smart contracts, which are essentially pieces of code on the blockchain, that anyone can read, theyre also on our github, but oh well, and they have all of the logic, and store the data. and they make sure everything happens according to pre-programmed rules.
+It has these things called smart contracts, which are essentially pieces of code on the blockchain, that anyone can read, and they have all of the logic, and store the data. and they make sure everything happens according to pre-programmed rules.
 -->
 
 ---
