@@ -1,0 +1,19 @@
+{
+    "presentations": [
+        {
+            "title": "ENS @ ETHOnline 2022",
+            "link": "/eth-online-2022",
+            "image": "/show/assets/eth_online_2022.png"
+        },
+        {
+            "title": "Terraform Zero to Hero",
+            "link": "/terraform",
+            "image": "/show/assets/terraform-zero-hero.svg"
+        },
+        {
+            "title": "Blockchain Zero to Hero",
+            "link": "/blockchain",
+            "image": "/show/assets/blockchain-zero-hero.svg"
+        }
+    ]
+}

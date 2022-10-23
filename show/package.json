@@ -26,6 +26,6 @@
         "start": "parcel ./src/index.html",
         "build": "parcel build ./src/index.html && cp -r ./public ./dist/public",
         "lint": "eslint -c .eslintrc.json --ext .ts ./src",
-        "copy": "cp -r ./dist/* ../dist/"
+        "copy": "cp ./api.json ./dist/api.json && cp -r ./dist/* ../dist/"
     }
 }
