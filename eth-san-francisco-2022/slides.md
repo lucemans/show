@@ -28,15 +28,18 @@ I am (0x225)
 <h1 class="max-w-lg whitespace-normal block break-all text-center h-auto">0x225f137127d9067788314bc7fcc1f36746a3c3b5</h1>
 
 <!--
-I am .... otherwise known as (lucemans.eth)
+I am .... otherwise known as (luc.computer)
 -->
 
 ---
 
-<h1 class="max-w-lg whitespace-normal block break-all text-center h-auto">lucemans.eth</h1>
+<h1 class="max-w-lg whitespace-normal block break-all text-center h-auto">luc.computer</h1>
+<h2 class="max-w-md whitespace-normal block break-all text-center h-auto text-blue-300" v-click>lucemans<span class="text-blue-500">.eth</span></h2>
 
 <!--
-Otherwise known as lucemans.eth,
+Otherwise known as luc.computer,
+
+or lucemans.eth
 
 and that,
 
@@ -69,7 +72,7 @@ Name
 
 Service
 
-ENS allows us to turn (human readable names...)
+the ability to convert (human readable names...)
 
 -->
 
@@ -93,21 +96,65 @@ into
 
 wallet addresses, as shown here
 
-and a bunch more, let me show you
+and backwards
+
 -->
 
 ---
 
-<h2 class="mb-4">Talkingpoints</h2>
+<div class="flex gap-4">
+    <h2 class="flex-1 flex max-w-xs whitespace-normal break-all text-center h-auto">
+        0xb8c2...67d5
+    </h2>
+    <img src="/assets/arrow.png" class="h-8"/>    
+    <h2 class="text-right flex gap-2">
+        <img src="/assets/nick.png" class="h-8" />
+        nick.eth
+    </h2>
+</div>
 
-<h3>What is ENS?</h3>
-<h3>Records & Resolvers</h3>
-<h3>Cross Chain Interop.</h3>
-<h3>Implementation</h3>
-<h3>First ENS</h3>
+<!--
+
+and backwards, so you wallet address to name.
+
+this means that now all of these
+-->
+
+---
+
+<img src="/assets/uni_before.png" />
+
+<!--
+this means that now all of these
+-->
+
+---
+
+<img src="/assets/uni_after.png" />
+
+<!--
+are now this
+
+luc.computer
+
+so before you run off, please stay seated, and let me show you some of my talking points for the next few minutes.
+-->
+
+---
+
+<h2 class="mb-4 absolute top-10 text-center left-1/2 -translate-x-1/2 transform">Talkingpoints</h2>
+
+<h3 v-click class="left-160 absolute top-110">What is ENS?</h3>
+<h3 v-click class="right-5 absolute top-60">DNS Integration</h3>
+<h3 v-click class="left-30 absolute top-100">Records & Resolvers</h3>
+<h3 v-click class="left-25 absolute top-40">Cross Chain Interop.</h3>
+<h3 v-click class="left-145 absolute top-26">Implementation</h3>
+<h3 v-click class="left-120 absolute top-70">First ENS</h3>
 
 <!--
 If you already know what ENS is, you might want to keep watching, cause we do have some other cool stuff to show.
+
+in no particular order!
 
 let me quickly run you through the agenda
 
@@ -122,8 +169,6 @@ Next about how you implement ENS
 
 a tut about registering ur ens
 
-and last but not least how to change ur avatar
-
 Decide wether this is the workshop for you, if what i just said made you think "hey i already know all this stuff" then feel free to keep hacking, and I wish you the best of luck on your project! otherwise, stay tuned.
 -->
 
@@ -131,9 +176,9 @@ Decide wether this is the workshop for you, if what i just said made you think "
 
 <h1>Milestones</h1>
 <div class="flex gap-8 mt-4">
-<h2 v-click>2.17m Names</h2>
+<h2 v-click>2.75m Names</h2>
 <h2 v-click>506 Integrations</h2>
-<h2 v-click>541k Owners</h2>
+<h2 v-click>593k Owners</h2>
 </div>
 
 <!--
@@ -569,7 +614,7 @@ and this is a smart contract, so you can overwrite the behaviour, which i think 
 </div>
 
 <!--
-so this by default is the public resolver, a contract we wrote and 
+so this by default is the public resolver, a contract we wrote and
 its being used your ENS address by default.
 
 public resolver allows us to modify records through the ENS manager.
@@ -635,11 +680,11 @@ Well ive got good news for you
 
 ---
 
-<h1>Cross Chain Interoperability Protcol</h1>
+<h1>Cross Chain Interoperability Protocol</h1>
 <h2 v-click>(CCIP)</h2>
 
 <!--
-Introducing, the cross chain interoperability protcol.
+Introducing, the cross chain interoperability protocol.
 
 A protocol that allows us to point our ENS records to resolvers on mainnet that say "oop, you gotta be on optimism to read dis"
 -->
@@ -687,6 +732,30 @@ practically a resolver on your toaster if you felt like it.
 The way CCIP read works it it allows us to throw a custom error on our mainnet resolver, that says "oop, you gonna need to check this other place" and redirect you towards where to go
 
 The library in question will then take action and reach out to that resource and handle the request for you so this is NO extra effort on your part.
+-->
+
+---
+
+<img src="/assets/twitter-ngo.png" class="max-w-xs">
+
+<!--
+A few days ago I released twitter.ngo
+
+Twitter ngo is a DNS domain, that I bought off of porkbun, used dnssec to get it on ENS, 
+
+and twitter.ngo
+-->
+
+---
+
+<img src="/assets/twitter-ngo2.png" class="max-w-md">
+
+<!--
+just resolves subdomains, and then uses the twitter api to get usernames, bio, and profile picture
+
+checks if it finds any ENS names (or lens names), and then resolves them to an address
+
+which is obviously super cool
 -->
 
 ---
@@ -952,7 +1021,6 @@ And then you can fill in an ipfs link, an arweave link, or just an http link if 
 and then you have your profile picture!
 -->
 
-
 ---
 
 <h3 class="flex gap-4 items-center mb-4">
@@ -973,9 +1041,16 @@ lucemans.eth
 <h3>@lucemansnl</h3>
 
 <!--
-
+You can find me at lucemans.eth or @lucemasnl or luc.contact. Ill be around the venue most of the time.
 -->
 
+---
+
+<h2>Keyboard go brr</h2>
+
+<!--
+And im also hacking myself (ontop of ENS), so if you don't see me walking around im probably behind a screen somwhere, but feel free to interrupt and i'll help you out and try my best to answer whatever ENS questions you migth have!
+-->
 
 ---
 
