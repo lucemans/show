@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /terraform/",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "copy": "cp -r ./dist ../../../dist/terraform"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.20",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.17.1"
+  },
+  "name": "terraform",
+  "version": "1.0.0",
+  "devDependencies": {
+    "sass": "^1.47.0"
+  }
+}
