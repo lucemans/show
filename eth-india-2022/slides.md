@@ -1,6 +1,6 @@
 ---
 theme: ./theme/
-title: ENS ETHOnline
+title: ENS ETHIndia
 layout: default
 color: pink
 ---
@@ -755,9 +755,27 @@ just resolves subdomains, and then uses the twitter api to get usernames, bio, a
 
 checks if it finds any ENS names (or lens names), and then resolves them to an address
 
+(which is obviously super cool)
+-->
+
+---
+
+<h1>Obviously super cool</h1>
+
+<!--
 which is obviously super cool
 
-(next lets talk about libraries)
+(but where do I get started)
+-->
+
+---
+
+<h1>Where to start?</h1>
+
+<!--
+but where do I get started
+
+(so there are a ton of libraries out there that support all the latest ENS features)
 -->
 
 ---
@@ -1055,10 +1073,10 @@ You can find me at lucemans.eth or @lucemasnl or luc.contact.
 <div class="flex items-center flex-col">
     <img src="/assets/happy_hacking.png" class="max-w-xl">
     <h1 class="flex gap-4 items-center mt-4">
-    See you at ETHDenver!
+    Happy Hacking!
     </h1>
 </div>
 
 <!--
-See you at ETHDenver!
+Happy Hacking!
 -->
