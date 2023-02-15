@@ -57,10 +57,10 @@ importers:
   talks/2022/blockchain:
     specifiers:
       '@slidev/cli': ^0.40.3
-      '@slidev/theme-default': '*'
-      '@slidev/theme-seriph': '*'
-      playwright-chromium: ^1.17.1
-      sass: ^1.47.0
+      '@slidev/theme-default': ^0.21.2
+      '@slidev/theme-seriph': ^0.21.3
+      playwright-chromium: ^1.30.0
+      sass: ^1.58.1
     dependencies:
       '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
       '@slidev/theme-default': 0.21.2

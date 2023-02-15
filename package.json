@@ -9,9 +9,5 @@
     "scripts": {
       "build": "yarn workspaces run build",
       "copy": "rm -rf ./dist && mkdir ./dist && yarn workspaces run copy"
-    },
-    "workspaces": [
-        "talks/**/*",
-        "show"
-    ]
+    }
 }
