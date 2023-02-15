@@ -7,7 +7,7 @@
     "license": "GPL3",
     "private": true,
     "scripts": {
-      "build": "yarn workspaces run build",
-      "copy": "rm -rf ./dist && mkdir ./dist && yarn workspaces run copy"
+      "build": "pnpm workspaces run build",
+      "copy": "rm -rf ./dist && mkdir ./dist && pnpm workspaces run copy"
     }
 }
