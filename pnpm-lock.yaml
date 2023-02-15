@@ -9,7 +9,7 @@ importers:
     specifiers:
       '@esbuild-plugins/node-globals-polyfill': ^0.2.3
       '@types/react': ^18.0.28
-      '@types/react-dom': ^18.0.10
+      '@types/react-dom': ^18.0.11
       '@types/styled-components': ^5.1.26
       '@typescript-eslint/parser': ^5.52.0
       '@vitejs/plugin-react': ^3.1.0
@@ -31,7 +31,7 @@ importers:
       vite-tsconfig-paths: ^4.0.5
     dependencies:
       '@esbuild-plugins/node-globals-polyfill': 0.2.3
-      '@types/react-dom': 18.0.10
+      '@types/react-dom': 18.0.11
       '@vitejs/plugin-react': 3.1.0_vite@4.1.1
       blurhash: 1.1.5
       date-fns: 2.29.3
@@ -2033,8 +2033,8 @@ packages:
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react-dom/18.0.10:
-    resolution: {integrity: sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==}
+  /@types/react-dom/18.0.11:
+    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
       '@types/react': 18.0.28
     dev: false
