@@ -7,7 +7,7 @@
     "license": "GPL3",
     "private": true,
     "scripts": {
-      "build": "pnpm -r --paralell exec pnpm build",
+      "build": "pnpm -r --parallel exec pnpm build",
       "copy": "rm -rf ./dist && mkdir ./dist && pnpm -r exec pnpm copy"
     }
 }
