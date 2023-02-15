@@ -24,7 +24,7 @@ export type PresentationType = {
 export const AllPesentations: PresentationType[] = [
     {
         name: 'ENS @ ETHOnline 2022',
-        image: require('url:/show/assets/eth_online_2022.png'),
+        image: import('/assets/eth_online_2022.png'),
         placeholder: 'T97]_0fQ0]+zj[K00]a{^U2-fQ[E',
         links: [
             {
@@ -40,7 +40,7 @@ export const AllPesentations: PresentationType[] = [
     },
     {
         name: 'Terraform Zero to Hero',
-        image: require('url:/show/assets/terraform-zero-hero.svg'),
+        image: import('/assets/terraform-zero-hero.svg'),
         placeholder: 'L65N[,t7EGWXoOogj=of9:kC?1s:',
         links: [
             {
@@ -51,7 +51,7 @@ export const AllPesentations: PresentationType[] = [
     },
     {
         name: 'Blockchain Zero to Hero',
-        image: require('url:/show/assets/blockchain-zero-hero.svg'),
+        image: import('/assets/blockchain-zero-hero.svg'),
         placeholder: 'TB8piVj@0hxCfQR+0Naz~99|j@$y',
         links: [
             {
@@ -67,7 +67,7 @@ export const AllPesentations: PresentationType[] = [
     },
     {
         name: 'Passwordless Authentication with Web3',
-        image: require('url:/show/assets/passwordless-web3.svg'),
+        image: import('/assets/passwordless-web3.svg'),
         placeholder: 'T97]_0fQ0]+zj[K00]a{^U2-fQ[E',
         links: [
             {

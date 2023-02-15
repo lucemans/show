@@ -1,20 +1,20 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "slidev build --base /eth-san-francisco-2022/",
-    "dev": "slidev --open",
-    "export": "slidev export",
-    "copy": "cp -r ./dist ../../../dist/eth-san-francisco-2022"
-  },
-  "dependencies": {
-    "@slidev/cli": "^0.27.20",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*",
-    "playwright-chromium": "^1.17.1"
-  },
-  "name": "eth-san-francisco-2022",
-  "version": "1.0.0",
-  "devDependencies": {
-    "sass": "^1.47.0"
-  }
+    "private": true,
+    "scripts": {
+        "build": "slidev build --base /encode-ens-2022/",
+        "dev": "slidev --open",
+        "export": "slidev export",
+        "copy": "cp -r ./dist ../../../dist/encode-ens-2022"
+    },
+    "dependencies": {
+        "@slidev/cli": "^0.40.3",
+        "@slidev/theme-default": "*",
+        "@slidev/theme-seriph": "*",
+        "playwright-chromium": "^1.17.1"
+    },
+    "name": "eth-denver",
+    "version": "1.0.0",
+    "devDependencies": {
+        "sass": "^1.47.0"
+    }
 }

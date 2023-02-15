@@ -1,9 +1,10 @@
 import React from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
+
 import { App } from './App';
 
 if (location.pathname == '/secret') {
     document.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 }
 
-render(<App />, document.getElementById('root'));
+createRoot(document.querySelector('#root')).render(<App />);

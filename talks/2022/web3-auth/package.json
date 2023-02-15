@@ -7,7 +7,7 @@
     "copy": "cp -r ./dist ../../../dist/web3-auth"
   },
   "dependencies": {
-    "@slidev/cli": "^0.27.20",
+    "@slidev/cli": "^0.40.3",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "playwright-chromium": "^1.17.1"

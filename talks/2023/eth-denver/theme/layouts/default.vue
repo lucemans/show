@@ -5,7 +5,7 @@
     </div>
     <div class="flex w-full justify-between px-7 py-3">
       <div class="h-fit self-end">
-        <img src="/assets/ethi.svg" class="h-8 absolute transform -translate-y-full mb-2" />
+        <img src="/assets/encode.png" class="h-16 absolute transform -translate-y-full mb-2" />
       </div>
       <div>
         <img src="/assets/ens.svg" class="h-12" />
