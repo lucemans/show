@@ -7,7 +7,7 @@
     "license": "GPL3",
     "private": true,
     "scripts": {
-      "build": "pnpm workspaces run build",
-      "copy": "rm -rf ./dist && mkdir ./dist && pnpm workspaces run copy"
+      "build": "pnpm -r exec pnpm build",
+      "copy": "rm -rf ./dist && mkdir ./dist && pnpm -r exec pnpm copy"
     }
 }
