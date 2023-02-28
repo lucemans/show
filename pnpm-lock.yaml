@@ -31,7 +31,7 @@ importers:
       vite-tsconfig-paths: ^4.0.5
       vue: ^3.2.47
     dependencies:
-      '@esbuild-plugins/node-globals-polyfill': 0.2.3
+      '@esbuild-plugins/node-globals-polyfill': 0.2.3_esbuild@0.16.17
       '@types/react-dom': 18.0.11
       '@vitejs/plugin-react': 3.1.0_vite@4.1.1
       blurhash: 1.1.5
@@ -42,7 +42,7 @@ importers:
       react-feather: 2.0.10_react@18.2.0
       react-router: 6.8.1_react@18.2.0
       react-router-dom: 6.8.1_biqbaboplfbrettd7655fr4n2y
-      styled-components: 5.3.6_biqbaboplfbrettd7655fr4n2y
+      styled-components: 5.3.6_vtcxgy2wlmese7djxl6h7ok674
       vite: 4.1.1
       vite-plugin-rewrite-all: 1.0.1_vite@4.1.1
       vite-tsconfig-paths: 4.0.5_typescript@4.9.5
@@ -64,7 +64,7 @@ importers:
       playwright-chromium: ^1.30.0
       sass: ^1.58.1
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -79,7 +79,7 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -94,7 +94,7 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -109,7 +109,7 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -124,7 +124,7 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -139,7 +139,7 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -154,7 +154,7 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -169,12 +169,22 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
     devDependencies:
       sass: 1.58.1
+
+  talks/2023/did-day:
+    specifiers:
+      '@slidev/cli': ^0.40.3
+      '@slidev/theme-default': '*'
+      '@slidev/theme-seriph': '*'
+    dependencies:
+      '@slidev/cli': 0.40.3_postcss@8.4.21
+      '@slidev/theme-default': 0.21.2
+      '@slidev/theme-seriph': 0.21.3
 
   talks/2023/eth-denver:
     specifiers:
@@ -184,7 +194,7 @@ importers:
       playwright-chromium: ^1.17.1
       sass: ^1.47.0
     dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
+      '@slidev/cli': 0.40.3_a7ylhdhfu5fxa2xazvddsmf244
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
       playwright-chromium: 1.30.0
@@ -197,24 +207,9 @@ importers:
       '@slidev/theme-default': '*'
       '@slidev/theme-seriph': '*'
     dependencies:
-      '@slidev/cli': 0.40.3
+      '@slidev/cli': 0.40.3_postcss@8.4.21
       '@slidev/theme-default': 0.21.2
       '@slidev/theme-seriph': 0.21.3
-
-  talks/2023/ywhale-deep-dive-2:
-    specifiers:
-      '@slidev/cli': ^0.40.3
-      '@slidev/theme-default': '*'
-      '@slidev/theme-seriph': '*'
-      playwright-chromium: ^1.30.0
-      sass: ^1.58.1
-    dependencies:
-      '@slidev/cli': 0.40.3_bzd6j6goeph3gk36uhzd5l3ppi
-      '@slidev/theme-default': 0.21.2
-      '@slidev/theme-seriph': 0.21.3
-      playwright-chromium: 1.30.0
-    devDependencies:
-      sass: 1.58.1
 
 packages:
 
@@ -610,10 +605,12 @@ packages:
     resolution: {integrity: sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==}
     dev: false
 
-  /@esbuild-plugins/node-globals-polyfill/0.2.3:
+  /@esbuild-plugins/node-globals-polyfill/0.2.3_esbuild@0.16.17:
     resolution: {integrity: sha512-r3MIryXDeXDOZh7ih1l/yE9ZLORCd5e8vWg02azWRGj5SPTuoh69A2AIyn0Z31V/kHBfZ4HgWJ+OK3GTTwLmnw==}
     peerDependencies:
       esbuild: '*'
+    dependencies:
+      esbuild: 0.16.17
     dev: false
 
   /@esbuild/android-arm/0.16.17:
@@ -1847,90 +1844,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@slidev/cli/0.40.3:
-    resolution: {integrity: sha512-vDdtqNSbzlRoK1EgCX+PQDl9Rg+hXnp7Lr/vQ2B+wDCN1Vcu+uk9G1iP6HnYAAedwDL23i1vreqeiDOJtIs5IQ==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    peerDependencies:
-      playwright-chromium: ^1.10.0
-    peerDependenciesMeta:
-      playwright-chromium:
-        optional: true
-    dependencies:
-      '@antfu/utils': 0.7.2
-      '@hedgedoc/markdown-it-plugins': 2.0.0_markdown-it@13.0.1
-      '@iconify-json/carbon': 1.1.15
-      '@iconify-json/ph': 1.1.4
-      '@lillallol/outline-pdf': 4.0.0
-      '@slidev/client': 0.40.3_vite@4.1.1
-      '@slidev/parser': 0.40.3
-      '@slidev/types': 0.40.3
-      '@vitejs/plugin-vue': 4.0.0_vite@4.1.1+vue@3.2.47
-      '@vitejs/plugin-vue-jsx': 3.0.0_vite@4.1.1+vue@3.2.47
-      '@windicss/config': 1.8.10
-      cli-progress: 3.11.2
-      codemirror: 5.65.11
-      connect: 3.7.0
-      debug: 4.3.4
-      fast-glob: 3.2.12
-      fs-extra: 11.1.0
-      get-port-please: 3.0.1
-      global-dirs: 3.0.1
-      import-from: 4.0.0
-      is-installed-globally: 0.4.0
-      jiti: 1.17.0
-      js-base64: 3.7.5
-      katex: 0.16.4
-      kolorist: 1.7.0
-      localtunnel: 2.0.2
-      markdown-it: 13.0.1
-      markdown-it-footnote: 3.0.3
-      markdown-it-link-attributes: 4.0.1
-      monaco-editor: 0.33.0
-      nanoid: 4.0.1
-      open: 8.4.1
-      pdf-lib: 1.17.1
-      plantuml-encoder: 1.4.0
-      postcss-nested: 6.0.0
-      prismjs: 1.29.0
-      prompts: 2.4.2
-      qrcode-terminal: 0.12.0
-      resolve: 1.22.1
-      resolve-from: 5.0.0
-      resolve-global: 1.0.0
-      shiki: 0.14.1
-      unocss: 0.49.4_vite@4.1.1
-      unplugin-icons: 0.15.3
-      unplugin-vue-components: 0.23.0_vue@3.2.47
-      vite: 4.1.1
-      vite-plugin-inspect: 0.7.15_vite@4.1.1
-      vite-plugin-remote-assets: 0.3.0_vite@4.1.1
-      vite-plugin-vue-markdown: 0.22.4_vite@4.1.1
-      vite-plugin-vue-server-ref: 0.3.0_vite@4.1.1+vue@3.2.47
-      vite-plugin-windicss: 1.8.10_vite@4.1.1
-      vue: 3.2.47
-      windicss: 3.5.6
-      yargs: 17.6.2
-    transitivePeerDependencies:
-      - '@babel/parser'
-      - '@svgr/core'
-      - '@types/node'
-      - '@unocss/webpack'
-      - '@vue/compiler-sfc'
-      - '@vue/composition-api'
-      - less
-      - postcss
-      - rollup
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
-      - vue-template-compiler
-      - vue-template-es2015-compiler
-    dev: false
-
-  /@slidev/cli/0.40.3_bzd6j6goeph3gk36uhzd5l3ppi:
+  /@slidev/cli/0.40.3_a7ylhdhfu5fxa2xazvddsmf244:
     resolution: {integrity: sha512-vDdtqNSbzlRoK1EgCX+PQDl9Rg+hXnp7Lr/vQ2B+wDCN1Vcu+uk9G1iP6HnYAAedwDL23i1vreqeiDOJtIs5IQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -1975,7 +1889,7 @@ packages:
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
       playwright-chromium: 1.30.0
-      postcss-nested: 6.0.0
+      postcss-nested: 6.0.0_postcss@8.4.21
       prismjs: 1.29.0
       prompts: 2.4.2
       qrcode-terminal: 0.12.0
@@ -1987,6 +1901,89 @@ packages:
       unplugin-icons: 0.15.3
       unplugin-vue-components: 0.23.0_vue@3.2.47
       vite: 4.1.1_sass@1.58.1
+      vite-plugin-inspect: 0.7.15_vite@4.1.1
+      vite-plugin-remote-assets: 0.3.0_vite@4.1.1
+      vite-plugin-vue-markdown: 0.22.4_vite@4.1.1
+      vite-plugin-vue-server-ref: 0.3.0_vite@4.1.1+vue@3.2.47
+      vite-plugin-windicss: 1.8.10_vite@4.1.1
+      vue: 3.2.47
+      windicss: 3.5.6
+      yargs: 17.6.2
+    transitivePeerDependencies:
+      - '@babel/parser'
+      - '@svgr/core'
+      - '@types/node'
+      - '@unocss/webpack'
+      - '@vue/compiler-sfc'
+      - '@vue/composition-api'
+      - less
+      - postcss
+      - rollup
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - vue-template-compiler
+      - vue-template-es2015-compiler
+    dev: false
+
+  /@slidev/cli/0.40.3_postcss@8.4.21:
+    resolution: {integrity: sha512-vDdtqNSbzlRoK1EgCX+PQDl9Rg+hXnp7Lr/vQ2B+wDCN1Vcu+uk9G1iP6HnYAAedwDL23i1vreqeiDOJtIs5IQ==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    peerDependencies:
+      playwright-chromium: ^1.10.0
+    peerDependenciesMeta:
+      playwright-chromium:
+        optional: true
+    dependencies:
+      '@antfu/utils': 0.7.2
+      '@hedgedoc/markdown-it-plugins': 2.0.0_markdown-it@13.0.1
+      '@iconify-json/carbon': 1.1.15
+      '@iconify-json/ph': 1.1.4
+      '@lillallol/outline-pdf': 4.0.0
+      '@slidev/client': 0.40.3_vite@4.1.1
+      '@slidev/parser': 0.40.3
+      '@slidev/types': 0.40.3
+      '@vitejs/plugin-vue': 4.0.0_vite@4.1.1+vue@3.2.47
+      '@vitejs/plugin-vue-jsx': 3.0.0_vite@4.1.1+vue@3.2.47
+      '@windicss/config': 1.8.10
+      cli-progress: 3.11.2
+      codemirror: 5.65.11
+      connect: 3.7.0
+      debug: 4.3.4
+      fast-glob: 3.2.12
+      fs-extra: 11.1.0
+      get-port-please: 3.0.1
+      global-dirs: 3.0.1
+      import-from: 4.0.0
+      is-installed-globally: 0.4.0
+      jiti: 1.17.0
+      js-base64: 3.7.5
+      katex: 0.16.4
+      kolorist: 1.7.0
+      localtunnel: 2.0.2
+      markdown-it: 13.0.1
+      markdown-it-footnote: 3.0.3
+      markdown-it-link-attributes: 4.0.1
+      monaco-editor: 0.33.0
+      nanoid: 4.0.1
+      open: 8.4.1
+      pdf-lib: 1.17.1
+      plantuml-encoder: 1.4.0
+      postcss-nested: 6.0.0_postcss@8.4.21
+      prismjs: 1.29.0
+      prompts: 2.4.2
+      qrcode-terminal: 0.12.0
+      resolve: 1.22.1
+      resolve-from: 5.0.0
+      resolve-global: 1.0.0
+      shiki: 0.14.1
+      unocss: 0.49.4_vite@4.1.1
+      unplugin-icons: 0.15.3
+      unplugin-vue-components: 0.23.0_vue@3.2.47
+      vite: 4.1.1
       vite-plugin-inspect: 0.7.15_vite@4.1.1
       vite-plugin-remote-assets: 0.3.0_vite@4.1.1
       vite-plugin-vue-markdown: 0.22.4_vite@4.1.1
@@ -2888,7 +2885,7 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       picomatch: 2.3.1
-      styled-components: 5.3.6_biqbaboplfbrettd7655fr4n2y
+      styled-components: 5.3.6_vtcxgy2wlmese7djxl6h7ok674
     dev: false
 
   /babel-plugin-syntax-jsx/6.18.0:
@@ -5848,12 +5845,13 @@ packages:
       enhanced-resolve: 4.5.0
     dev: false
 
-  /postcss-nested/6.0.0:
+  /postcss-nested/6.0.0_postcss@8.4.21:
     resolution: {integrity: sha512-0DkamqrPcmkBDsLn+vQDIrtkSbNkv5AD/M322ySo9kqFkCIYklym2xEmWkwo+Y3/qZo34tzEPNUw4y7yMCdv5w==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
+      postcss: 8.4.21
       postcss-selector-parser: 6.0.11
     dev: false
 
@@ -6455,7 +6453,7 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /styled-components/5.3.6_biqbaboplfbrettd7655fr4n2y:
+  /styled-components/5.3.6_vtcxgy2wlmese7djxl6h7ok674:
     resolution: {integrity: sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg==}
     engines: {node: '>=10'}
     requiresBuild: true
@@ -6474,6 +6472,7 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      react-is: 16.13.1
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: false
