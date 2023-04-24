@@ -1,11 +1,11 @@
 {
-  "name": "ywhale-deep-dive",
+  "name": "did-day",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /ywhale-deep-dive/",
+    "build": "slidev build --base /did-day/",
     "dev": "slidev --open",
     "export": "slidev export",
-    "copy": "cp -r ./dist ../../../dist/ywhale-deep-dive"
+    "copy": "cp -r ./dist ../../../dist/did-day"
   },
   "dependencies": {
     "@slidev/cli": "^0.40.3",
